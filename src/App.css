@@ -1,0 +1,41 @@
+.inner {
+  margin-top: 20px;
+}
+form button {
+  margin-top: 20px;
+}
+img {
+  width: 100%;
+  height: 80vh;
+}
+.slider {
+  margin-top: 40px;
+}
+.direction {
+  display: flex;
+}
+.slider {
+  position: relative;
+}
+.slider button {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  height: fit-content;
+  margin: auto;
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.slider button.slidePrev {
+  left: 10px;
+}
+.slider button.slideNext {
+  right: 10px;
+}
+.error {
+  color: red;
+}
